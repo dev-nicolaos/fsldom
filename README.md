@@ -57,7 +57,7 @@ No mess or fuss here. Three simple options...
 
     OR
 
-    Download [FSLDOM](https://fsldom.org/fsldom) into your project
+    Download [FSLDOM](https://fsldom.org) into your project
 
     `import fD from 'path/to/fsldom-es.js';`
 
