@@ -18,7 +18,7 @@ Born out of a frustration from typing out long method names for common DOM tasks
 ## Philosophy
 FSLDOM is not an attempt to wrap the entire functionality of the DOM API (à la jQuery). The DOM API is quite extensive and for the most part, easy to use. There simply isn't much need to write wrapper funtions for tasks like:
 - `elem.hidden = true`
-- `elem.style.background = '#222222'`
+- `elem.style.backgroundColor = '#222222'`
 - `elem.classList.add('banana')`
 
 That being said, if you've ever tried to go from using jQuery to vanilla JS, you've probably been frustrated to have to type `document.getElementById()` or `document.querySelector()` instead of just `$()` to get a reference to an element. That's a lot of extra characters. These are the types of problems FSLDOM wants to solve.

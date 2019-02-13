@@ -2,7 +2,7 @@
 
 const app = {
   init() {
-    fD.byClass('blue-back')[0].style.background = 'blue';
+    fD.byClass('blue-back')[0].style.backgroundColor = 'blue';
 
     console.log(fD.query('section button[disabled]'));
 
