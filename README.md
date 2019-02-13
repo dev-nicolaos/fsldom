@@ -34,7 +34,6 @@ FSLDOM is extremly lightweight. The minified versions are under 4KB in size.
 FSLDOM is super fast. Check out these speed comparisons to jQuery, courtesy of [jsPerf](https://jsperf.com)
 - [Change the color of an element with a class](https://jsperf.com/fsldom-vs-jquery)
 
-What makes it fast?
 
 ### Loadtime
 Feel free to load FSLDOM at runtime (i.e. access it remotely rather than download it). FSLDOM should load very quickly thanks to being hosted on [Netlify's ADN](https://www.netlify.com/features/adn/)
