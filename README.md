@@ -33,6 +33,9 @@ FSLDOM is extremly lightweight. The minified versions are under 4KB in size.
 ### Speed
 FSLDOM is super fast. Check out these speed comparisons to jQuery, courtesy of [jsPerf](https://jsperf.com)
 - [Change the color of an element with a class](https://jsperf.com/fsldom-vs-jquery)
+- [Change font styles for all paragraphs](https://jsperf.com/fsldom-vs-jquery/5)
+- [Set variable equal to input value](https://jsperf.com/fsldom-vs-jquery/6)
+- [Create footer and append it to body](https://jsperf.com/fsldom-vs-jquery/7)
 
 
 ### Loadtime
