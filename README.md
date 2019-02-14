@@ -50,9 +50,9 @@ No mess or fuss here. Three simple options...
 
   - Option 2: use npm
 
-    npm install --save @dev-nicolaos/fsldom
+    npm install --save fsldom
 
-    `const fD = require(@dev-nicolaos/fsldom);`
+    `const fD = require('fsldom');`
 
   - Option 3: load FSLDOM as an EcmaScript module
 
