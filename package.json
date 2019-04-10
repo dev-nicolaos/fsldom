@@ -1,6 +1,6 @@
 {
   "name": "fsldom",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "A fast, simple and lightweight library for manipulating the DOM",
   "keywords": [
     "front-end",
@@ -14,17 +14,23 @@
   "bugs": "https://github.com/dev-nicolaos/fsldom/issues",
   "license": "MIT",
   "author": "Nicolaos Skimas (https://nicolaosskimas.com)",
-  "main": "dist/fsldom.min.js",
-  "module": "dist/fsldom-es.min.js",
+  "type": "module",
+  "main": "src/fsldom.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dev-nicolaos/fsldom.git"
   },
   "scripts": {
-    "build": "uglifyjs src/fsldom.js -o dist/fsldom.min.js && uglifyjs src/fsldom-es.js -o dist/fsldom-es.min.js"
+    "format": "prettier --write src/**/*.js",
+    "dev": "onchange \"src/**/*\" -- prettier --write {{changed}}",
+    "rollup": "rollup -c",
+    "build": "npm run format && npm run rollup"
   },
   "devDependencies": {
-    "uglify-es": "^3.3.9"
+    "onchange": "^5.2.0",
+    "prettier": "1.16.4",
+    "rollup": "^1.9.0",
+    "rollup-plugin-terser": "^4.0.4"
   },
   "prettier": {
     "singleQuote": true,

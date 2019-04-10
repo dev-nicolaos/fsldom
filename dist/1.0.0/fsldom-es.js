@@ -1,10 +1,10 @@
 /* FSLDOM */
-/* Updated: Feb 12, 2019 */
+/* Version: 1.0.0 */
 /* Author: Nicolaos Skimas */
+/* License: MIT */
 /* https://github.com/dev-nicolaos/fsldom */
 
 const fD = {
-  // Methods for Querying the DOM
   byId(id) {
     if (typeof id === 'string') {
       return document.getElementById(id);
@@ -48,7 +48,6 @@ const fD = {
     }
   },
 
-  // Method for Creating New Elements
   newEl(elementType, { classList, id, html, text } = {}) {
     if (typeof elementType === 'string') {
       let elem = document.createElement(elementType);
@@ -85,7 +84,6 @@ const fD = {
     }
   },
 
-  // Methods for Inserting Content
   before(targetElem, newContent) {
     fDAddContent('beforebegin', targetElem, newContent);
   },
@@ -103,7 +101,6 @@ const fD = {
   },
 };
 
-// Helper function containing shared logic for insertion methods
 function fDAddContent(position, targetElem, newContent) {
   if (targetElem instanceof HTMLElement) {
     if (newContent instanceof HTMLElement) {
