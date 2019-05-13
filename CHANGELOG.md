@@ -1,5 +1,11 @@
 # FSLDOM Changelog
 
+### 2.1.0
+- Readd support for CJS modules for environments like Electron
+- Use unordered list rather than table for download links on website
+- Tweak build scripts
+
+
 ### 2.0.0
 ##### Project Structure
 - Refactored src/ to use ES6 modules, bundled with Rollup for distribution
