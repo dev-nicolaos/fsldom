@@ -51,4 +51,20 @@ export default [
     },
     plugins: [terser(tOptions)],
   },
+  {
+    input,
+    output: {
+      file: `dist/${version}/fsldom-cjs.js`,
+      format: 'cjs',
+      banner,
+    },
+  },
+  {
+    input,
+    output: {
+      file: `dist/${version}/fsldom-cjs.min.js`,
+      format: 'cjs',
+    },
+    plugins: [terser(tOptions)],
+  },
 ];
