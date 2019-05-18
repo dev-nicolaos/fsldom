@@ -26,18 +26,6 @@
       a {
         color: green;
       }
-
-      table {
-        max-width: 800px;
-        width: 100%;
-        border-collapse: collapse;
-      }
-
-      th, td {
-        border: 1px solid black;
-        text-align: center;
-        padding: 5px;
-      }
     </style>
   </head>
   <body>
@@ -49,10 +37,11 @@
     </header>
 
     <main>
-      <h3>FSLDOM is available in two formats:</h3>
+      <h3>FSLDOM is available in three formats:</h3>
 
       <ul>
         <li>as an ES6 module that can be included via an import statement</li>
+        <li>as a CommonJS module that can include via require()</li>
         <li>as an <a href="https://developer.mozilla.org/en-US/docs/Glossary/IIFE">IIFE</a> which creates a global variable</li>
       </ul>
 
@@ -63,22 +52,16 @@
       <section>
         <h2>Downloads</h2>
 
-        <table>
-          <thead>
-            <th>Current Version</th>
-            <th>ES6 Module (minified)</th>
-            <th>IIFE/Global (minified)</th>
-            <th>ES6 Module</th>
-            <th>IIFE/Global</th>
-          </thead>
-          <tr>
-            <td>2.0.0</td>
-            <td><a href="2.0.0/fsldom-es.min.js" download>Download</a></td>
-            <td><a href="2.0.0/fsldom.min.js" download>Download</a></td>
-            <td><a href="2.0.0/fsldom-es.js" download>Download</a></td>
-            <td><a href="2.0.0/fsldom.js" download>Download</a></td>
-          </tr>
-        </table>
+        <h3>Current Version: 2.1.0</h3>
+
+        <ul>
+          <li><a href="2.1.0/fsldom-es.min.js" download>ES6 Module (minified)</a></li>
+          <li><a href="2.1.0/fsldom-cjs.min.js" download>CJS Module (minified)</a></li>
+          <li><a href="2.1.0/fsldom.min.js" download>IIFE/Global (minified)</a></li>
+          <li><a href="2.1.0/fsldom-es.js" download>ES6 Module</a></li>
+          <li><a href="2.1.0/fsldom-cjs.js" download>CJS Module</a></li>
+          <li><a href="2.1.0/fsldom.js" download>IIFE/Global</a></li>
+        </ul>
       </section>
 
       <h4><a href="https://github.com/dev-nicolaos/fsldom">GitHub</a></h4>
