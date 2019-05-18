@@ -5,16 +5,14 @@
   "keywords": [
     "front-end",
     "dom",
+    "dom manipulation",
     "ui",
-    "javascript",
-    "html",
-    "web"
+    "html"
   ],
   "homepage": "https://github.com/dev-nicolaos/fsldom#readme",
   "bugs": "https://github.com/dev-nicolaos/fsldom/issues",
   "license": "MIT",
   "author": "Nicolaos Skimas (https://nicolaosskimas.com)",
-  "type": "module",
   "main": "dist/2.1.0/fsldom-cjs.js",
   "repository": {
     "type": "git",
