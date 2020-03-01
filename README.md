@@ -1,4 +1,11 @@
 # FSLDOM
+
+------
+
+__This library is deprecated and no longer maintained. Hosted versions may not be available. Use at your own risk.__
+
+------
+
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/a71bdc11-116f-463b-994d-27815be634c8/deploy-status)](https://app.netlify.com/sites/fsldom/deploys)
 
 ### A fast, simple and lightweight library for manipulating the DOM
